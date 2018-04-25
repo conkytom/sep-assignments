@@ -1,0 +1,58 @@
+3 primitive algorithms used in day-to-day life:
+
+Making Oatmeal:
+FIND bowl
+FIND 1-minute Oatmeal
+MEASURE 1/4 cup of Oatmeal
+PLACE measured oatmeal in bowl
+MEASURE1/2 cup water
+PLACE measured water in bowl
+PLACE bowl in microwave
+MICROWAVE for 2 minutes
+REMOVE bowl from microwave
+PLACE a handful of peanuts in bowl
+PLACE a handful of blueberries in bowl
+STIR contents of bowl
+CONSUME contents of bowl
+BE nourished
+END
+
+Bartending, taking a beer order:
+FIND customer
+LISTEN for drink name
+GRAB glass
+FIND tap with drink name
+PLACE glass under tap with drink name
+WHILE glass is not full
+    POUR drink
+END WHILE
+GIVE glass to customer
+TELL customer drink value
+RECEIVE currency from customer
+IF currency is greater than drink value
+    OPEN register
+    RETURN cerrency value minus drink value to customer
+END IF
+
+Taking the train to work:
+WALK to wister train station
+IF train is not present
+    WAIT
+ELSE
+    EMBARK on train
+END IF
+
+FIND seat
+IF seat is open
+    SIT in seat
+ELSE
+    STAND
+END IF
+
+AT each station read station sign
+IF station sign is for Croydon Station
+    DISEMBARK train
+    WALK down Cedar ave to work
+ELSE
+    WAIT
+END IF
