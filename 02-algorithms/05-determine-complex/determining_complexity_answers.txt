@@ -1,0 +1,27 @@
+1. What's the Big-O of the following algorithm? Submit your work and reasoning with your solution.
+    goodbye_world.rb
+    Constant time, O(1).  This algorithm has one thing that it does, once; So it will always take the same amount ot time to do that one thing.
+
+2. What's the Big-O of the following algorithm? Submit your work and reasoning with your solution.
+    find_largest.rb
+    Linear time, O(n).  This is much like linear search.  This algorithm will pass over the entire collection once, so it's run time is directly related to the length of the collection.  Essentially O(collection.length), which is the same as O(n).
+
+3. What's the Big-O of the following algorithm? Submit your work and reasoning with your solution.
+    find_largest_2D_array.rb
+    Sqaured time, O(n^2). Also very similar to linear search, except it looks over a 2D array.  Looking through the first collection could be written as O(collection.length), and looking though the subcollection of each collection could be written as O(subcollection.length).  Both of this could be written as O(n), so the run time would multiply the 2 together for O(n) * O(n) = O(n^2). This makes sense since 2D objects are measured in sqaured units, if your just scanning over the "surface" of the array, it would generally take a squared amount of time.
+
+
+4. What's the Big-O of the following algorithm? Submit your work and reasoning with your solution.
+    numbers_recursive.rb
+    Exponential time, O(2^n).  The resurssive nature of this algorithm really makes it's run time SPIRAL out of control.  As the value of n increases the function must call upon itself n-1 and n-2 times.  Lets say n is 5. if the algorithm then looks at n-1 and n-2 it will use 4 and 3.  As it runs through the calculations for 4 it then looks to 3 and 2.  This is really abbreviated but you can see here that the algorithm will run 3 twice already.  I imagined this like a tree, and by the time each number has split off it's lower values there will be a whole lot of 1s at the bottom.  For the algorithm to run through each recursion it will really get out of hand at higher numbers.
+
+
+5. What's the Big-O of the following algorithm? Submit your work and reasoning with your solution.
+    numbers_iterative.rb
+    Linear time, O(n).  Accomplishing the same thing as the algorithm in the last question, but by making the main mechanism a while loop it really streamlines the process.  As n increases by 1 it only means the algorithm has to run one more time.
+
+6. What's the Big-O of the following algorithm? Submit your work and reasoning with your solution.
+    sort.rb
+    Exponential time, O(n^2). I think I'm reading this right, this is a quick sort algorithm.  While typically quick sort runs at a decent log linear time, in the big O worst case it can be eponential.  It takes a special case, it would mean that somehow in each iteration the pivot would have the bad luck of being the smallest value each time, so that each time it ran it's algorithm it would only place 1 value while having searched over every value, every time.
+
+
