@@ -22,6 +22,6 @@
 
 6. What's the Big-O of the following algorithm? Submit your work and reasoning with your solution.
     sort.rb
-    Exponential time, O(n^2). I think I'm reading this right, this is a quick sort algorithm.  While typically quick sort runs at a decent log linear time, in the big O worst case it can be eponential.  It takes a special case, it would mean that somehow in each iteration the pivot would have the bad luck of being the smallest value each time, so that each time it ran it's algorithm it would only place 1 value while having searched over every value, every time.
+    Exponential time, O(n^2). I think I'm reading this right, this is a quick sort algorithm.  While typically quick sort runs at a decent log linear time, in the big O worst case it can be eponential.  It takes a special case, it would mean that somehow in each iteration the pivot would have the bad luck of being the smallest value each time, so that each time it ran it's algorithm it would only place 1 value while having searched over every value, every time. 
 
 
