@@ -1,0 +1,10 @@
+# Find the Big-O of each version and write your work and solution
+
+Version one: Lightly Optimized
+    The insertion sort mechanism in this function will make it O(n^2).
+
+Version Two: Improved Time Complexity
+    While the the benchmark in this particular example is a little slower, the use of Merge Sort should make this O(n log n).
+
+Version Three: Improved Space Complexity
+    The `sort` array method uses quicksort, so this is O(n^2), but this is the best space saving option I could think of.
